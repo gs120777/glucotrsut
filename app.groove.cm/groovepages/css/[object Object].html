@@ -1,0 +1,106 @@
+<!DOCTYPE html><html lang=en>
+<!-- Mirrored from app.groove.cm/groovepages/css/[object Object] by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Nov 2023 14:03:33 GMT -->
+<head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=apple-touch-icon sizes=180x180 href=../apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=../favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../favicon-16x16.png><link rel=manifest href=https://app.groove.cm/groovepages/site.webmanifest><link rel=stylesheet href=../../../cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css><link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,400&amp;display=swap" rel=stylesheet><meta name=msapplication-TileColor content=#da532c><meta name=theme-color content=#ffffff><title>GrooveFunnels</title><script>(function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = '../../../www.googletagmanager.com/gtm5445.html?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-MKWM7K2');</script><link href=index.css rel=preload as=style><link href=../js/index.js rel=preload as=script><link href=index.css rel=stylesheet></head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKWM7K2" height=0 width=0 style=display:none;visibility:hidden></iframe></noscript><noscript><strong>We're sorry but GroovePages doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=https://js.stripe.com/v3/ ></script><script src=../../../www.paypalobjects.com/api/checkout.js></script><script src=../../../js.authorize.net/v1/Accept.js charset=utf-8></script><script src=../../../staxjs.staxpayments.com/stax.html></script><script src=../../../core.spreedly.com/iframe/iframe-v1.min.js></script><script>!(function (e, t, n) {
+            function a() {
+                var e = t.getElementsByTagName('script')[0],
+                    n = t.createElement('script');
+                (n.type = 'text/javascript'),
+                    (n.async = !0),
+                    (n.src = 'https://beacon-v2.helpscout.net/'),
+                    e.parentNode.insertBefore(n, e);
+            }
+            if (
+                ((e.Beacon = n = function (t, n, a) {
+                    e.Beacon.readyQueue.push({ method: t, options: n, data: a });
+                }),
+                    (n.readyQueue = []),
+                    'complete' === t.readyState)
+            )
+                return a();
+            e.attachEvent
+                ? e.attachEvent('onload', a)
+                : e.addEventListener('load', a, !1);
+        })(window, document, window.Beacon || function () { });</script><script>if (
+            localStorage.getItem('lang') !== null &&
+            localStorage.getItem('lang') === 'en'
+        ) {
+            window.Beacon('init', '5e7a9ea5-a2ce-463e-afd9-50e39e868fb6');
+        } else if (
+            localStorage.getItem('lang') !== null &&
+            localStorage.getItem('lang') === 'pt'
+        ) {
+          window.Beacon('init', '47037222-4343-4616-9c60-06dc74830e48');
+        } else {
+          document.getElementById('beacon').style.display = 'none';
+        }</script><script>let workspaceId = 'f634edf5-70e7-429d-8c94-c26dfaeaee26';
+
+        if (localStorage.getItem('user')) {
+            const userObject = JSON.parse(localStorage.getItem('user'))??{};
+            const { metadata } = userObject;
+
+            if (metadata.hasOwnProperty('is_br') && metadata.is_br == 1) {
+                workspaceId = '529374ee-7c18-41a2-9ddd-1431f8a89793';
+            }
+        }
+
+        var li_sidebar = {
+            workspace_id: workspaceId
+        };
+        if (localStorage.getItem('user')) {
+            var user = JSON.parse(localStorage.getItem('user'));
+            li_sidebar.name = user.name;
+            li_sidebar.email = user.email;
+        }</script><script src="../../../cdn.loopedin.io/js/sidebar.min7e0c.js?v=0.1" defer></script><script>window.Tooltip || function (t, e) {
+            var o = {
+                url: "https://cdn.tooltip.io/static/player.js",
+                key: "ae6893d8-cd70-4474-b00c-3812c0a0d4ab",
+                async: true
+            };
+            window.Tooltip = { cs: [], _apiKey: o.key }; for (
+                var r = ["identify", "goal", "updateUserData", "start", "stop", "refresh", "show", "hide", "on"],
+                i = {}, n = 0; n < r.length; n++) {
+                    var a = r[n]; i[a] = function (t) {
+                        return function () {
+                            var e = Array.prototype.slice.call(arguments);
+                            window.Tooltip.cs.push({ method: t, args: e })
+                        }
+                    }(a)
+            } window.Tooltip.API = i; var n = t.createElement(e), s = t.getElementsByTagName(e)[0];
+            n.type = "text/javascript", n.async = o.async, s.parentNode.insertBefore(n, s), n.src = o.url
+        }(document, "script");
+
+        try {
+                if ('localStorage' in window && window.localStorage) {
+                    if (localStorage.getItem('user')) {
+
+                        var user = JSON.parse(localStorage.getItem('user'));
+                        let userLevel = 0;
+
+                        if (user.roles.indexOf('groove_future_apps') >= 0) {
+                            userLevel = 1;
+                        } else if (user.roles.indexOf('groovepages_user') >= 0) {
+                            userLevel = 2;
+                        }
+
+                        Tooltip.API.updateUserData({
+                            userId: user.id,
+                            userLevel,
+                        });
+                        console.log('Setting value in tooltip from local storage');
+                    }
+                }
+                else {
+                    console.log('Unable to set value in tooltip from localstorage');
+                }
+        } catch (exception) { }</script><script src=../js/index.js></script></body>
+<!-- Mirrored from app.groove.cm/groovepages/css/[object Object] by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Nov 2023 14:03:33 GMT -->
+</html>

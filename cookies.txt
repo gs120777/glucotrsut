@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.authorize.net	TRUE	/	FALSE	1999999999	__cfruid	316c561ad796302fdeeb6e4322aac239b6bccd30-1700057010
+js.authorize.net	TRUE	/	FALSE	1999999999	SameSite	None
+.staxpayments.com	TRUE	/	FALSE	1999999999	__cf_bm	jOw.GrHhv2IoKzg7U6vfWV8Ji1moxdk1QJi1hwc8z1s-1700057010-0-AXMaosDW4S/TOQJgkJKbZ43gU/ccwCxT412Ikr6IURHiUTaJIi+KnWkRpHQyljn3tYv5T9faR/UWX+h9/rI4u4Q=
+staxjs.staxpayments.com	TRUE	/	FALSE	1999999999	SameSite	None
+
